@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "reacttriggeractions.helloWorld",
-        "title": "Hello World"
+        "command": "reacttriggeractions.start",
+        "title": "Trigger Actions Webview"
       }
     ]
   },
