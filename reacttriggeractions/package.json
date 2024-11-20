@@ -14,7 +14,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "reacttriggeractions.start",
+        "command": "trigger-actions.openWebview",
         "title": "Trigger Actions Webview"
       }
     ]
