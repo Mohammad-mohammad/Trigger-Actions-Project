@@ -63,8 +63,5 @@
             }
         ]
     },
-    "activationEvents": [
-        "onLanguage:trigger-actions"
-    ],
     "main": "./out/extension/main.cjs"
 }

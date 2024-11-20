@@ -1,13 +1,13 @@
 grammar TriggerActions
 
 entry Model:
-    (persons+=Person | greetings+=Greeting)*;
+    (triggers+=Trigger | actions+=Action)*;
 
-Person:
-    'person' name=ID;
+Trigger:
+    'trigger' name=ID;
 
-Greeting:
-    'Hello' person=[Person:ID] '!';
+Action:
+    'action' name=ID 'for' trigger=[Trigger] ':' value=STRING;
 
 hidden terminal WS: /\s+/;
 terminal ID: /[_a-zA-Z][\w_]*/;
